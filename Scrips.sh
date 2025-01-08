@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Indtast parametre
-OVA_FILE="/mnt/ISO-Jesper/template/iso/20250108T095845Z - Ubuntu 22.04 to XO.ova"   # Sti til din OVA-fil
+OVA_FILE="/mnt/pve/ISO-Jesper/template/iso/20250108T095845Z - Ubuntu 22.04 to XO.ova"   # Sti til din OVA-fil
 VM_ID="100"                     # ID for den nye VM i Proxmox
 VM_NAME="Ubuntu-to-docker-and-guacamole"   # Navn på den nye VM
 STORAGE="local-lvm"            # Navn på storage i Proxmox
